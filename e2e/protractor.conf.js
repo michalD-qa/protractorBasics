@@ -27,7 +27,7 @@ exports.config = {
     print: function () { }
   },
   onPrepare() {
-    //browser.logger = log4js.getLogger('log');
+    browser.logger = log4js.getLogger('log');
     browser.ignoreSynchronization = true;
     // Logger = './src_new/utils/logger2.js';
     require('ts-node').register({

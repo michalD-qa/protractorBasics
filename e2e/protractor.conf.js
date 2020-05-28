@@ -6,7 +6,7 @@ const tsConfig = require('../tsconfig.json');
 
 exports.config = {
   allScriptsTimeout: 11000,
-  specs: ['src/tests/test.e2e-spec.ts'],
+  specs: ['src/tests/*.e2e-spec.ts'],
 
   suites: {
     full: 'src/tests/*.e2e-spec.ts'
@@ -27,7 +27,7 @@ exports.config = {
     print: function () { }
   },
   onPrepare() {
-    browser.logger = log4js.getLogger('log');
+    //browser.logger = log4js.getLogger('log');
     browser.ignoreSynchronization = true;
     // Logger = './src_new/utils/logger2.js';
     require('ts-node').register({

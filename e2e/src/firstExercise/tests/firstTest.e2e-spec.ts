@@ -1,4 +1,5 @@
 import { browser, $, $$, ElementFinder, element, by, ElementArrayFinder, ExpectedConditions } from "protractor";
+import { waitForVisibility, waitForInvisibility } from '@protractor/elementsInteractions/waitFunctions';
 
 describe('First Test', async () => {
     it('When type text and click button then text is displayed', async () => {
@@ -43,9 +44,6 @@ describe('First Test', async () => {
         //let ec = ExpectedConditions;
         // await browser.wait(ec.visibilityOf(allert), 10000, "Element is not visible, elementLocator: " + allert.locator());
         // await browser.wait(ec.invisibilityOf(allert), 10000, "Element is visible");
-
-
-
     });
 
 });

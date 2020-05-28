@@ -6,7 +6,7 @@ const tsConfig = require('../tsconfig.json');
 
 exports.config = {
   allScriptsTimeout: 11000,
-  specs: ['src/tests/*.e2e-spec.ts'],
+  specs: ['src/firstExercise/tests/*.e2e-spec.ts'],
 
   suites: {
     full: 'src/tests/*.e2e-spec.ts'

@@ -1,0 +1,8 @@
+*.tgz
+/e2e/
+/dist/
+.gitignore
+/.idea/
+tslint.json
+tsconfig.json
+/bec-prot

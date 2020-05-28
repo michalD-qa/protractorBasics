@@ -1,0 +1,5 @@
+libs/shared/bec-api
+libs/inv/features/paper-details/static-data/static-data.component.html
+libs/inv/features/paper-details/expenditures/expenditures.component.html
+*.yaml
+*.orig

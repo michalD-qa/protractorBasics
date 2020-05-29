@@ -1,7 +1,7 @@
 import { browser, $, ElementFinder, element, by } from "protractor";
 
-xdescribe('My first test', async () => {
-    it('Asynchronous ', async () => {
+xdescribe('Introduction Test Suite', async () => {
+    it('Asynchronous - test case', async () => {
         browser.get("https://www.seleniumeasy.com/test/");
         console.log("Checkpoint 1");
         browser.sleep(5000);
@@ -15,7 +15,7 @@ xdescribe('My first test', async () => {
         console.log("Checkpoint 4");
     });
 
-    it('Synchronous ', async () => {
+    it('Synchronous - test case', async () => {
         await browser.get("https://www.seleniumeasy.com/test/");
         console.log("Checkpoint 1");
         await browser.sleep(5000);
